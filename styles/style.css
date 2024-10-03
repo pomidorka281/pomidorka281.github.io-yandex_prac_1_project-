@@ -9,13 +9,13 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-header {
+/* header, section {
   border: blue solid 1px;
 }
 
-div, h1, h2, p {
+div, h1, h2, p{
   border: red solid 1px;
-}
+} */
 
 .header {
   height: 100vh;
@@ -136,6 +136,54 @@ div, h1, h2, p {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
+}
+
+.centered-title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title {
+  margin-top: 100px;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  margin-top: 20px;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  width: 1100px;
+  margin: 0 auto 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  margin: 20px 0 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 /* и элемента с модификатором вида ключ-значение */
