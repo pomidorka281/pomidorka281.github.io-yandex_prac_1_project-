@@ -4,7 +4,7 @@
   /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
-  margin: 0;
+  margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
@@ -18,7 +18,7 @@ div, h1, h2 {
 }
 
 .header {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
