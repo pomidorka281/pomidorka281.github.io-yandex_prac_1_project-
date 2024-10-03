@@ -9,13 +9,13 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* header, section {
+header, section {
   border: blue solid 1px;
 }
 
 div, h1, h2, p{
   border: red solid 1px;
-} */
+}
 
 .header {
   height: 100vh;
@@ -183,6 +183,39 @@ div, h1, h2, p{
   margin: 20px 0 0;
   line-height: 1.2;
   font-size: 18px;
+  font-weight: normal;
+}
+
+.feynman {
+  height: 890px;
+  position: relative;
+  background-image: url(../images/feynman.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+.feynman__title {
+  margin-top: 100px;
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.feynman__subtitle {
+  margin-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
   font-weight: normal;
 }
 
