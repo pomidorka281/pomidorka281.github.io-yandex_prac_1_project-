@@ -9,14 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* header, section {
-  border: blue solid 1px;
-}
-
-div, h1, h2, p{
-  border: red solid 1px;
-} */
-
 .header {
   height: 100vh;
   min-height: 600px;
@@ -27,14 +19,9 @@ div, h1, h2, p{
   display: flex;
 }
 
-.header__logo {
-  margin: 0;
-}
-
-.header__logo_place_header {
+.logo_place_header {
   width: 228px;
   height: 32px;
-  background-image: url(../images/logo_place_header.svg);
   position: absolute;
   top: 30px;
   left: 64px;
@@ -76,9 +63,6 @@ div, h1, h2, p{
   bottom: 0;
   width: 765px;
   height: 608px;
-  background-image: url(../images/two_again.png);
-  background-position: center;
-  background-size: cover;
   z-index: 2;
 }
 
@@ -190,9 +174,6 @@ div, h1, h2, p{
 .feynman {
   height: 890px;
   position: relative;
-  background-image: url(../images/feynman.png);
-  background-position: left bottom;
-  background-repeat: no-repeat;
   background-color: #f2f2f2;
 }
 
@@ -219,6 +200,12 @@ div, h1, h2, p{
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+}
+
+.feynman__logo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .kaufman {
@@ -253,12 +240,71 @@ div, h1, h2, p{
 }
 
 .kaufman__triangle {
-  background-image: url(../images/kaufman-triangle.svg);
-  background-position: center;
-  background-size: cover;
   width: 877px;
   height: 877px;
   position: absolute;
   right: -210px;
   top: 0;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  min-height: 350px;
+  color: white;
+}
+
+.footer__columns {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  position: relative;
+}
+
+.logo__place_footer {
+  width: 228px;
+  height: 32px;
+}
+
+.footer__author {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
 }
