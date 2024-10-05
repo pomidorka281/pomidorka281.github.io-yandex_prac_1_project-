@@ -19,7 +19,7 @@
   display: flex;
 }
 
-.logo_place_header {
+.header__logo_place_header {
   width: 228px;
   height: 32px;
   position: absolute;
@@ -52,7 +52,7 @@
   z-index: 5;
 }
 
-.header__subtitle_type_link {
+.header__link {
   position: static;
   text-decoration: none;
 }
@@ -76,14 +76,10 @@
   right: 0;
 }
 
-.description {
-  margin: 0;
-  display: flex; 
-  justify-content: center; 
-}
-
 .two-columns {
-  margin: 100px 0;
+  display: flex; 
+  justify-content: center;
+  margin: 100px auto;
   width: 80%;
   justify-content: space-between;
   align-items: start;
@@ -116,7 +112,7 @@
   margin: 30px 0;
 }
 
-.main-text__paragraph__span-accent {
+.main-text__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
@@ -257,6 +253,8 @@
   background-color: #1f1f1f;
   min-height: 350px;
   color: white;
+  display: flex;
+  align-items: stretch;
 }
 
 .footer__columns {
@@ -274,7 +272,7 @@
   position: relative;
 }
 
-.logo__place_footer {
+.footer__logo_place_footer {
   width: 228px;
   height: 32px;
 }
